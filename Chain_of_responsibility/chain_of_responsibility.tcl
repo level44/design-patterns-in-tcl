@@ -1,6 +1,6 @@
 
 package require TclOO
-console show
+
 ################################################################################
 # More than one object has chance to handle request.                           #
 # This example uses abstract method implemented according to the wiki article: #
@@ -71,7 +71,7 @@ class create concreteHandler2 {
 
     method handle {} {
         if {0} {
-            puts "handler 1 - possible"
+            puts "handler 2 - possible"
             #object cannot handle this request
         } else {
             puts "handler 2 - not possible"
