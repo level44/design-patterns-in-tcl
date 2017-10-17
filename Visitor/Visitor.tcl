@@ -15,6 +15,7 @@ class create Element {
 }
 
 class create ConcreteElement1 {
+    superclass Element
     method accept {visitor} {
         $visitor accepted [self]
     }
