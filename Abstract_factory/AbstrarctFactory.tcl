@@ -4,7 +4,6 @@ package require TclOO
 ################################################################################
 # Provide an interface for creating families of related or dependent           #
 # objects without specifying their concrete classes.                           #
-# Strategy lets the algorithm vary independently from the clients that use it. #
 # This example uses abstract method implemented according to the wiki article: #
 # https://wiki.tcl.tk/40639                                                    #
 ################################################################################
