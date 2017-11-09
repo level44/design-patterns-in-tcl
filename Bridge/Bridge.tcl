@@ -11,28 +11,28 @@ package require TclOO
 source {../AbstractClassHelper.tcl}
 
 class create AbstractionInterface {
-	variable _implementator
+    variable _implementator
 
-	constructor {implementator} {
-		set _implementator $implementator
-	}
+    constructor {implementator} {
+        set _implementator $implementator
+    }
 
-	method doSomething {str} {
-		$_implementator doSomething_implementation $str
-	}
+    method doSomething {str} {
+        $_implementator doSomething_implementation $str
+    }
 }
 
 class create AbstractImplementator {
 
-	method doSomething_implementation {str} abstract
+    method doSomething_implementation {str} abstract
 }
 
 class create Implementator {
-	superclass AbstractImplementator
+    superclass AbstractImplementator
 
-	method doSomething_implementation {str} {
-		puts $str
-	}
+    method doSomething_implementation {str} {
+        puts $str
+    }
 }
 
 

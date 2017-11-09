@@ -7,7 +7,7 @@ Collection contains :
 - Builder (TBD)
 - Chain of responsibility
 - Command
-- Composite (TBD)
+- Composite
 - Decorator
 - Facade (TBD)
 - Flyweight (TBD)
