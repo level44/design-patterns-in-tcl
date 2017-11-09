@@ -3,14 +3,14 @@ A collection of popular design patterns implemented in TCL language with TclOO p
 
 Collection contains :
 - Abstract factory
-- Bridge (TBD)
+- Bridge
 - Builder (TBD)
 - Chain of responsibility
-- Command 
-- Composite (TBD) 
+- Command
+- Composite (TBD)
 - Decorator
 - Facade (TBD)
-- Flyweight (TBD) 
+- Flyweight (TBD)
 - Interpreter
 - Iterator
 - Mediator
